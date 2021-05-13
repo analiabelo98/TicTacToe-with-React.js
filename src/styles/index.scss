@@ -11,3 +11,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color: white;
+}
+
+.row div {
+    border: 1px solid white;
+    background-color: rgb(101, 84, 107);
+    border-radius: 10px;
+   
+}
+
+
+
+h1 {
+    color: rgb(15, 15, 15);
+   text-shadow: 0 0 10px rgb(179, 134, 134);
+}
+.col-4 {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.X::before {
+     content: "X"; 
+     font-size: 150px;
+}
+
+.O::before {
+    content: "O";
+    font-size: 150px;
+}
